@@ -204,3 +204,7 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_BOOT_JARS += \
     WfdCommon
+
+# Recorder
+PRODUCT_PACKAGES += \
+    OPScreenRecorder
