@@ -70,3 +70,6 @@ PRODUCT_PRODUCT_PROPERTIES += \
     debug.sf.enable_hwc_vds=1 \
     persist.debug.wfd.enable=0 \
     persist.sys.wfd.virtual=0
+# Spark Maintainer
+PRODUCT_PRODUCT_PROPERTIES += \
+   ro.spark.maintainer=Sambit(stellabyte)
