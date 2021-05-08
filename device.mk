@@ -66,7 +66,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_DEX_PREOPT_DEFAULT_COMPILER_FILTER := everything
 
 # Device Settings
-$(call inherit-product-if-exists, vendor/PocoParts/pocoparts.mk)
+$(call inherit-product, vendor/PocoParts/pocoparts.mk)
 
 PRODUCT_PACKAGES += \
     XiaomiParts \
