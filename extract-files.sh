@@ -16,7 +16,7 @@ if [[ ! -d "${MY_DIR}" ]]; then MY_DIR="${PWD}"; fi
 
 POTATO_ROOT="${MY_DIR}"/../../..
 
-HELPER="${POTATO_ROOT}/vendor/potato/build/tools/extract_utils.sh"
+HELPER="${POTATO_ROOT}/vendor/cesium/build/tools/extract_utils.sh"
 if [ ! -f "${HELPER}" ]; then
     echo "Unable to find helper script at ${HELPER}"
     exit 1
