@@ -6,14 +6,11 @@
 
 $(call inherit-product, device/xiaomi/surya/device.mk)
 
-# Inherit some common SparkOS stuff.
-$(call inherit-product, vendor/spark/config/common_full_phone.mk)
-
-SPARK_BUILD_TYPE := OFFICIAL
-TARGET_FACE_UNLOCK_SUPPORTED := true
+# Inherit some common potatoOS stuff.
+$(call inherit-product, vendor/potato/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := spark_surya
+PRODUCT_NAME := potato_surya
 PRODUCT_DEVICE := surya
 PRODUCT_BRAND := POCO
 PRODUCT_MODEL := POCO X3
