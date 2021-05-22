@@ -7,11 +7,11 @@
 $(call inherit-product, device/xiaomi/surya/device.mk)
 
 # Inherit some common CARBON stuff.
-$(call inherit-product, vendor/carbon/config/common.mk)
-$(call inherit-product, vendor/carbon/config/gsm.mk)
+$(call inherit-product, vendor/awaken/config/common.mk)
+# $(call inherit-product, vendor/carbon/config/gsm.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := carbon_surya
+PRODUCT_NAME := awaken_surya
 PRODUCT_DEVICE := surya
 PRODUCT_BRAND := POCO
 PRODUCT_MODEL := POCO X3
