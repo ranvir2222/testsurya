@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/cesium_surya.mk
+    $(LOCAL_DIR)/awaken_surya.mk
 
 COMMON_LUNCH_CHOICES := \
-    cesium_surya-user \
-    cesium_surya-userdebug \
-    cesium_surya-eng
+    awaken_surya-user \
+    awaken_surya-userdebug \
+    awaken_surya-eng
