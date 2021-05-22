@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/carbon_surya.mk
+    $(LOCAL_DIR)/awaken_surya.mk
 
 COMMON_LUNCH_CHOICES := \
-    carbon_surya-user \
-    carbon_surya-userdebug \
-    carbon_surya-eng
+    awaken_surya-user \
+    awaken_surya-userdebug \
+    awaken_surya-eng
