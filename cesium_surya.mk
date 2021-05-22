@@ -7,10 +7,10 @@
 $(call inherit-product, device/xiaomi/surya/device.mk)
 
 # Inherit some common potatoOS stuff.
-$(call inherit-product, vendor/cesium/config/common_full_phone.mk)
+$(call inherit-product, vendor/awaken/config/common.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := cesium_surya
+PRODUCT_NAME := awaken_surya
 PRODUCT_DEVICE := surya
 PRODUCT_BRAND := POCO
 PRODUCT_MODEL := POCO X3
